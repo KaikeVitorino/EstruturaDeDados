@@ -57,7 +57,7 @@ void inserir(int parametroNumero) {
 		cabeca = novoNo;
 	} else {
 		// Procurar ultimo elemnto da lista
-		struct no *ponteiro = cabeca; //Ponteiro apontando pára o msm lugar q a cabeca aponta
+		struct no *ponteiro = cabeca; //Ponteiro apontando pÃ¡ra o msm lugar q a cabeca aponta
 		while (ponteiro -> proximo != NULL) { //Ponteiro apontando para o proximo,se proximo for diferente de NULL
 			ponteiro = ponteiro -> proximo;       //    ele continua ate achar o Null
 		}
